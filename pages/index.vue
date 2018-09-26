@@ -20,7 +20,7 @@
 
 <script>
 import Logo from '~/components/Logo.vue';
-const myWasmModule = import("~/assets/js_hello_world");
+const myWasmModule = import("~/assets/js/greet/js_hello_world");
 
 export default {
   components: {
